@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.box {
+	width: 500px;
+	height: 281px;
+	margin: 100px auto;
+	position: relative;
+}
+
+#box {
+	width: 500px;
+	height: 281px;
+	margin: 100px auto;
+	position: relative;
+}
+
+.banner li img{
+	width: 500px;
+	height: 281px;
+	position: absolute;
+}
+
+.aBtn {
+	width: 100px;
+	height: 24px;
+	position: absolute;
+	bottom: 2px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+.aBtn li {
+	float: left;
+	border: 2px solid #ffffff;
+	margin: 0 8px;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.aBtn .active {
+	opacity: 1;
+}
+
+a {
+	width: 60px;
+	height: 60px;
+	display: block;
+	background: #00FFFF;
+	position: absolute;
+	display: none;
+}
+
+.left {
+	left: 0;
+	top: 110px;
+	z-index: 1;
+	background: url(../lb/btn.gif)no-repeat 0 0;
+}
+
+.right {
+	right: 0;
+	top: 110px;
+	background: url(../lb/btn.gif)no-repeat 0 -60px;
+}
